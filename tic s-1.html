@@ -1,0 +1,727 @@
+
+<html>
+
+     <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+	 <style>
+	 @import url(https://fonts.googleapis.com/css?family=Lato);
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  font: 1em/1.5 "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+body {
+  font-size: 1.3em;
+   background-color: #E8E4DC;
+  background-size: cover;
+}
+
+header {
+  height: 400;
+  position: relative;
+  overflow: hidden;
+ 
+}
+header .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+header hgroup {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 65;
+  left: 150;
+  color: #213f84;
+  padding: .5em 3em;
+  z-index: 2;
+}
+
+img{
+  margin-right:20px
+}
+.site {
+  padding: 2em;
+  text-align: center;
+  font-size: .8em;
+  color: nonz;
+  position:absolute;
+  margin-right:0;
+  margin-left:400;
+}
+.site a {
+  color: #666;
+  text-decoration: none;
+}
+
+.site nav{
+  position:relative;
+  top:10;
+  left:0;
+  background:none;
+  width:100%;
+  padding-bottom:50;
+}
+.site nav a{
+  padding:10px  30;
+  font-size:1.4em;
+ text-align:center;
+  border-radius: 7px;
+}
+.site nav a:hover{
+  background:#213f84;
+  color:#fff;
+    padding-bottom:10;
+	border-radius:70xp;
+}
+#section-1 ,#section-0,#section-2,#section-3,#section-4,#section-5{
+  
+  margin-left:0;
+  width: 100%;
+  display: inline;
+  padding-bottom:50;
+  margin-top:50;
+  padding-top:50;
+}
+a#scroll-btn{
+  position: absolute;
+  height: 30px;
+  width: 15%;
+  left: 0;
+  right: 0;
+  padding:10px;
+  margin-left:50px;
+  display: inline;
+}
+#chapitre-1,#chapitre-2,#chapitre-3,#chapitre-4,#chapitre-5{
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 120;
+  margin-left:570;
+  margin-right:570;
+  margin-bottom:990;
+  height:100;
+  background-color: #e5d8ac;
+  margin-top:-20;
+  height:70;
+  font-style:League Spartan;
+}
+#chapitre-1,#chapitre-2,#chapitre-3,#chapitre-4,#chapitre-5 h1{
+font-size:20;
+padding:15;
+}
+
+#chapitre-0{
+  background-color: none;
+  color: #ffffff;
+  font-size: 2.7em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 120em;
+  margin-bottom:50;
+  margin-left:70;
+  margin-right:70;
+  
+}
+table{
+	border-collapse: collapse;
+    background: #fcf4dc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 50;
+    position: center;  
+	margin-bottom:50;
+	font-style
+}
+caption{
+	color:black;
+	background-color:#dbccb2;
+	font-style: paalalabas Wide;
+    font-size: 2.5em;
+	position:center;
+	margin-bottom:20;
+	margin-left:400;
+	margin-right:450;
+}
+ td {
+  text-align: center;
+}
+table thead tr {
+    height: 30px;
+    background: #dbccb2;
+	font-size: 20px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+	 border-collapse: collapse;
+	 background-color:#fff;
+}
+tbody tr {
+    font-family: OpenSans-Regular;
+    font-size: 20px;
+    color: black;
+    line-height: 1.2;
+    font-weight: unset;
+    border: 1px solid black;
+    border-collapse: collapse;
+	
+}
+
+row-group{
+background-color: gray;
+}
+.par{
+	margin-left:270;
+	margin-top:-950;
+	margin-bottom:60;
+	margin-right:150;
+}
+ h2#chapitre3 {
+	font-weight:normal;
+}
+h2#chapitre-4{
+font-weight:normal;
+font-size:20;
+}
+.row{
+    background-color: #f1e5cf;
+}
+	 </style>
+     <body>
+         <header>
+             
+                 <hgroup>
+                         <h1 style="font-size:50px;font-family:Verdana;color:#3559ad;margin-top:0"> TIC</h1>
+                         
+                 </hgroup>
+             
+                 <div class="site">
+                     <nav>
+				         <section id="section-0">
+					         <a  href="#chapitre-0">CONTACT</a>
+                         </section>
+					     <section id="section-1">
+                             <a href="#chapitre-1">CHAPITRE 1</a>
+                         </section>
+					     <section id="section-2">
+                             <a href="#chapitre-2">CHAPITRE 2</a>
+                         </section>
+						     <a href="#chapitre-3">CHAPITRE 3</a>
+                         </section>
+						     <a href="#chapitre-4">CHAPITRE 4</a>
+                         </section>
+						     <a href="#chapitre-5">CHAPITRE 5</a>
+                         </section>
+					 </nav>
+  
+         </header>
+         <main>
+		 <h1 style="font-size:31px;font-style: paalalabas Wide;position:center;margin-left:340;color:#365194;margin-bottom:150;margin-top:-150"> TECHNIQUES DE L'INFORMATION ET DE LA COMMUNICATION</h1>
+         
+			     
+             <section id="chapitre-1">
+                    <h1> Chapitre 1: introduction </h1>
+					</section>
+					  <div class="par">
+					  
+					  
+					 <ol>
+					 <li>  <h2>Les techniques de l'information et de la communication (TIC): </h2></li> <hr> 
+                              <p> Les TIC sont des téchnologies ou des outils pour collecter, traiter,<br>
+							  stocker,transmettre et diffuser des informations via différents <br>médias 
+							  et canaux de communication.
+							  </p>
+					  <li> <h2>Catégories et objectifs :</h2> </li> 
+					  <hr> <br>
+					    <ul>
+						 
+                         <li> a. Les catégories : </li> 
+						     <ol>
+                             <li>  La téléinformatique . </li>
+						     <li>  Télécommunication.  </li>
+						     <li>  L'électronique.  </li>
+							 </ol>
+						 <li>  b.Les objectifs recherchés :</li> 
+						     <ol>
+                             <li> La connectivité . </li>
+						     <li> La modularité . </li>
+						     <li> Une implantation simple.</li> 
+						     <li> Une utilisationfacile.  </li>
+						     <li> La fiabilité. </li> </ol> <br>
+						 </ul>
+                       <li> <h2>  Composants de TIC: </h2></li> 
+					   <hr> <br>
+                             <ul> 
+							     <li> a. La partie matérielle: </li>
+						             <ol>
+                                     <li>  Pc portable, la télévision, le téléphone portable...  </li>
+						             <li>  Station de travail : toute machine capable denvoyer <br> des 
+									 données vers les réseaux . </li> </ol> 
+							     <li>  b.La partie logicielle: </li>
+								     <ol>
+                                     <li> Les systèmes d'éxploitation, les logiciels d'application<br> et 
+									 d'utilisation desdifférents composants matériels. </li>
+						             <li> Les réseaux d'internet ou mobiles. </li>
+								     </ol> <br>
+							 </ul>	 
+						<li> <h2> Caractéristiques:</h2> </li> <hr> <br>
+						<ul>
+                              <li>   a-  La rapidité . </li>
+						      <li>   b-  La décentralisation du pouvoir. </li>
+						      <li>   c-  Un meilleur accès aux informations . </li>
+						      <li>   d-  La rationalité . </li>
+						      <li>   e-  La mondialisation . </li>
+						     <li>    f-  La répartition . </li>
+							 </ul> <br>
+						 <li> <h2>Initiation aux techniques de communication:</h2> </li> <hr> <br>
+						     <ul>
+                             <li> Objectifs de communication persuader et <br>
+							 Modifier ou renforcer limage
+							 de produit, générer des ventes.... </li><br>
+						     <li> Système de communication partenaires de communication : l’émetteur, le récepteur. <br> 1-Les vecteurs : message, media. <br> 2-Les fonctions : Codage Décodage réponse ,feedback.<br> 3-Bruit. </li><br>
+                             <li> Les types de communication : </li><br>
+							 
+							 <ol>
+                                 <li> La communication institutionnelle. </li> 
+						         <li> La communication commerciale. </li>
+						     </ol> </ul>
+							 <ul>     <br>
+							    <li> Les schémas de communication : </li>
+								     <ol>
+                                         <li>La communication interpersonnelle : un émetteur va transmettre <br>
+										 son message(s) aux destinataire. Il peut attendre un « feed-back ». </li>
+						                 <li>La communication de groupe: Un émetteur va transmettre message<br>
+										 à plusieur destinataires,il peut attendre un retour.  </li>
+                                         <li> La communication de masse : comme la publicité <br>
+										 on n’attend pas de feedback.  </li>
+									 </ol> <br>
+							     <li> Média et Multimédia : </li>
+								     <ol>
+                                     <li> Média : est un moyen de communication utilisé pour diffuser <br>
+									 des informations ou des messages à un large public. 
+						             <li> Multimedia: est un terme qui désigne l'utilisation combinée<br>
+									 de différents médias pour transmettre des informations ou des messages.
+									 </ol>
+					  
+				  
+            </div>
+			
+			<section id="chapitre-2">
+                    <h1> Chapitre 2: les réseaux informatiques</h1>
+					</section>
+            <div class="par">
+			<ol>
+			<li> <h2>Réseau (informatique) :</h2> </li> <hr>
+			Ensemble d’ordinateurs et des périphériques libres <br>
+			interconnectés pour la communication de données entre<br>
+			applications quelles que soient les distances qui les séparent.<br> 
+           (Remarque : un réseau est un connexion de deux 
+		   ordinateurs en moins.)
+		     <ul>
+                <li><h2>Évolution :</h2> </li> <hr> <br>
+                   Les réseaux informatiques ont été créés pour permettre la<br>
+				   communication entre des terminaux distants et un site central<br>
+				   , puis entre ordinateurs.  Au départ, ces réseaux étaient<br>
+				   utilisés uniquement pour le transport de données informatiques<br>
+				   , mais maintenant ils intègrent également la parole et la vidéo.  <br>
+				   <li> <h2>Networking :</h2> </li> <hr><br>
+				    Mise en œuvre des outils et des tâches permettant de <br>
+					relier des ordinateurs pour le partage des ressources. 
+				    <br>
+					<li><h2> Les caractéristiques de base d’un réseau</h2> </li> <hr> <br>
+                 <ul>
+                     <li> La topologie qui décrit l’architecture physique<br>
+					 et logique des équipements interconnectés </li> 
+                     <li> Le débit exprimé en bits/s (ou bps)  </li>
+                     <li> La distance maximale (ou portée)  </li>
+                     <li> Le nombre de nœuds maximum que l’on peut y connecter. </li>
+				 </ul>
+				
+            <li> <h2>Les terminologies en réseau </h2></li>  <hr> <br>
+			
+             ▪️ Station de travail ▪️ Nœud ▪️ Serveur ▪️ Paquet <br>
+			 ▪️ Réseaux Homogènes  ▪️ Réseaux Hétérogènes▪️ Le Débit 
+ 
+            <br>  <li><h2> Éléments d'un réseau </h2></li>  <hr> <br>
+                 ▪️ Les ordinateurs ▪️ Les logiciels navigateur <br>
+				 ▪️ Les supports du : LAN : câbles paires cuivre torsadées<br>
+				 , prises RJ45, WIFI, WAN : ligne téléphonique, <br>
+				 ▪️ Les équipements d'interconnexion du LAN : répéteur concentrateur <br>
+				 , commutateur (switch) WAN : routeur 
+ 
+            <br> <li>  <h2>Classification des réseaux</h2> </li> <hr> <br>
+              Par portée l’envergure (La distance) : LAN, <br>
+			  MAN et WAN ▪️ LAN (Local Area Network )<br>
+			  ▪️ MAN (Métropolitain Area Network) ▪️ WAN (Wide Area Network) 
+ 
+             <br>  <li> <h2>Les supports de connexion </h2> </li> <hr> <br>
+              ▪️ réseaux filaires ▪️ réseaux sans fils 
+ <br> 
+              <li> <h2> Le type d’organisation </h2> </li> <hr> 
+			 <ul>
+                 <li> les réseaux poste a postes  </li> 
+                 <li> les réseaux clients/serveurs </li> 
+		     </ul> 
+			 
+            <li> <h2>Le type de topologie</h2> </li><hr> <br>
+                 <ul>			
+                     <li>  les réseaux en bus  </li> 
+                     <li>  les réseaux en Etoile </li> 
+                     <li>  les réseaux en anneau </li> 
+                     <li>  maillée </li> 
+			</div>
+			<section id="chapitre-3">
+                    <h1> Chapitre 3: le Model OSI</h1>
+             </section>
+			 <div class="par">
+			 <ol>
+			<li> <h2>Les Composants matériel d’un Réseau informatique :</h2> </li> <hr>
+                                      
+			<h3>Les cartes réseau:</h2> <hr> ou NIC, sont les composants qui <br>
+            permettent à l’ordinateur de se connecter à un réseau via une<br>
+			connexion 
+	        Ethernet ou Wi-Fi. Elles facilitent la transmission<br>
+			et la réception de données via
+			des protocoles de communication tels que TCP/IP.
+            <hr> <h">Les switches :</h"> 
+			 sont les composants utilisés pour 
+			 <br>connecter les 
+			 appareils sur un réseau local (LAN), en stockons leur<br>
+			 adresses MAC dans
+			 une table de correspondance pour envoyer les  <br>
+			 données uniquement
+			 à l'appareil destinataire. Ils sont utilisés <br>
+			 dans des réseaux de
+			 différentes tailles. Ils offrent également des <br>
+			 fonctionnalités avancées 
+			 telles que la gestion des VLAN.
+             <h3>Les hubs: </h3> <hr> Sont les composants <br>
+			 utilisés pour connecter 
+			 plusieurs appareils sur un réseau local<br>
+			 et transmettre les
+			 données à tous les appareils connectés. <br>
+			 Bien que les hubs<br>
+			 aient été remplacés par des switches plus <br>
+			 rapides et plus
+			 sécurisés, ils sont toujours utilisés dans <br>
+			 les petits réseaux.
+             <br><li><h2> Le Modèle OSI :</h2> </li> <hr><br>
+             Le modèle OSI est un modèle de référence qui définit comment<br>
+			 les systèmes réseau communiquent et envoient des données d'un<br>
+			 expéditeur à un destinataire. Il est divisé en sept couches, <br>
+			 (la couche physique, la couche liaison de données, la couche <br>
+			 réseau, la couche transport, la couche session, la couche<br>
+			 présentation et la couche application) chacune ayant des<br>
+			 fonctions spécifiques. Bien qu'il ne soit pas utilisé dans<br>
+			 les protocoles de communication modernes, il reste toujours <br>
+			 utile pour comprendre les principes de la communication des réseaux.
+			 
+             <br><li><h2> Le Modèle TCP/IP : </h2></li> <hr> <br>
+                Le modèle TCP/IP est un modèle de référence pour les<br>
+				communications de réseau utilisé dans la conception<br>
+				et la mise en œuvre de réseaux informatiques modernes,<br>
+				comme les réseaux Internet et les réseaux sans fil. <br>
+				Le modèle TCP/IP est divisé en quatre couches principales<br>
+				(la couche liaison de données, la couche réseau,<br>
+				la couche transport et la couche application). <br>
+				Il est le modèle de référence pour les protocoles<br>
+				de communication de réseau les plus largement utilisés<br>
+				, tels que le protocole Internet (IP) et le protocole de contrôle de transmission (TCP).
+<br>
+             <li><h2> L’adressage :</h2> </li> <hr><br>
+                 Les communications dans un réseau obéissent à des règles<br>
+				 d’adressage, d’architecture, et de protocoles pour assurer<br>
+				 l'échange de données.
+                 <h3> C’est quoi un adressage IP ? </h3>
+                 L'adressage IP est le numéro qui identifie chaque <br>
+				 ordinateur dans les réseaux, il se décompose a <br>
+				 deux modes d'adressage IPV4 et IPN6.
+				 
+                 <br><li> <h2>L’adresse IPV4:</h2></li>  <hr> <br>
+                L’adresse IPV4 se compose d'une partie réseau et <br>
+				d'une autre partie hôtes. 
+                 L'adressage IPv4 est effectué selon quatre <br>
+				 types d'adresses :
+                <ol>
+				
+				<li><h2>L'adresse réseau : </h2></li> <hr><br>
+				tous les bits de la partie hôtes sont à zéro, <br>
+				permettant à toutes les machines d'un réseau de<br>
+				partager la même partie réseau.
+				
+                 <li><h2>L'adresse de diffusion :</h2> </li> <hr> <br>
+				 tous les bits de la partie hôtes sont à un, <br>
+				 permettant à un ordinateur d'envoyer des paquets<br>
+				 à tous les hôtes du réseau sans avoir besoin d'envoyer<br>
+				 un paquet pour chaque ordinateur de manière unique.
+				 
+                 <li> <h2>L'adresse hôte : </h2></li> <hr><br>
+				 les valeurs sont situées entre l'adresse réseau et <br>
+				 l'adresse de diffusion, permettant d'attribuer des <br>
+				 adresses aux machines situées sur le réseau.
+                 <li><h2> Le masque de réseau et de sous-réseaux : </h2></li> <hr> <br>
+				 tous les bits de la partie réseau sont à un, indiquant<br>
+				 le réseau auquel appartient l'hôte.
+			
+			
+			
+			</div>
+			<section id="chapitre-4">
+                    <h1> Chapitre 4: Internet et le web</h1>
+					</section>
+                       <div class="par">
+					   <ol>
+					   <li> <h2> Aspects techniques du Web : <h2> </li> <hr> <ol>
+					   
+                        <li> URL (Uniforme Resource Locator )  contient  L’adresse du serveur <br>
+						et l’adresse de la page sur le serveur.</li>
+                        <li>HTTP : </li>
+                        Protocole de niveau applicatif, sans état (pas de « mémoire » des<br>
+						transactions précédentes) et de Paradigme client-serveur 
+                        <li> HTML : HyperText Markup Language</li>
+                       Langage de description de « pages Web » fait un Liens hypermédias<br>
+					   entre les pages 
+					   </ol> 
+                       <li> <h2>Page web et site web :</h2></li><hr> <br>
+                      Une page Web, c’est un document multimédia Décrit Avec :HTML <br>
+					  , localisée sur Internet
+                      à l’aide d’une adresse (URL) ; Un site web est un regroupement de pages<br> Web 
+					  ,Reliées entre elles par des liens hypertexte .
+                      <li> <h2>Création d’une page web HTML :</h2></li><hr><br><br>
+                      Un document HTML est : Un fichier texte, construit suivant une syntaxe<br>
+					  précise déclarative 
+					  Structuré par des balises visualisé dans un navigateur Créé dans un<br>
+					  éditeur de pages web ou de texte 
+					  
+                      <li><h2>Les principes de langage HTML:</h2> </li> <hr><br>
+                          Les balises <br>
+                           <"html"> … <"/html"> : Délimite le début et la fin du document<br>
+                           <"head"> … <"/head"> : Entête du document<br>
+                           <"title"> … <"/title"> : Titre du document<br>
+                           <"body"> … <"/body"> : Corps du document<br>
+                          <br>Les titres et paragraphes<br>
+                            <"hn"> … <"hn"> : Titre de niveau n :1 à 6. Exemple <"h1"> Grand titre <"/h1"> <br>
+                           <"p"> … <"p"> : paragraphe"</ol>
+			</div>
+			
+			<section id="chapitre-5">
+                    <h1 style="font-size:25"> Chapitre 5: Système de Gestion de version </h1>
+				</section>
+				<div class="par">
+				<ul>
+				<li><h2>Définition :</h2></li> <hr><br>
+                     L’application Git est un logiciel de versioning où l’utilisateur peut<br>
+					 stocker les modifications maintenues à son projet et les suivre au <br>
+					 fil du temps. Ces logiciels nous permettent de travailler en équipe<br>
+					 d’effectuer des opérations de sorte plus robuste et nous fournirent <br>
+					 des fonctionnalités de plus.
+                    Ils existent deux modèles des logiciels de versioning :<ul>
+                    <li> modèle centralisé : où le code source est centralisé.</li>
+                    <li> modèle distribué : où le code source est hébergé sur un<br>
+					serveur distant. Ce modèle est plus simple et flexible au <br>
+					travail, et aussi plus sécurisé par rapport au premier.</li></ul>
+                    <li><h2> GitHub :</h2></li> <hr> <br>c’est un service permettant d’héberger des dépôts<br>
+					Git. Notons que n’importe qui peut accéder au code de ces dépôts
+                    <li> <h2>Installation :</h2> </li><hr><br>la façon la plus adéquate est de télécharger<br>
+					la dernière version du site http://git-scm.com/downloads .
+                    <li><h2> paramétrage :</h2></li><hr> <br> les commandes utilisées sont :<ul>
+                    <li> git config : permet de voir et modifier les variables<br>
+					de configuration qui contrôlent tous les aspects de <br>
+					l’apparence de Git. </li>
+                    <li> --global : indiquer à Git que le nom d’utilisateur<br>
+					et l’adresse mail renseignés doivent être utilisés globalement.</li>
+                    <li> Création de dépôt : Il existe deux façons de<br>
+					créer un dépôt Git : </li>
+                    <li>Importation d’après un répertoire déjà <br>
+					existant.</li></ul><br><br>
+                    <li> La manière de pensé de Git par rapport aux données<br>
+					est différente, ils les considèrent comme étant un flux instantané.</li>
+                    <li> La commande « git statuts » est extrêmement nécessaire <br>
+					qui s’utilise pour visualiser l’état des répertoires.</li>
+                    <li> Parmi ces avantages informer le suivi des versions des<br>
+					fichiers et leurs validations l’étape suivante consiste à <br>
+					indexer les fichiers pour cela on utilise « git add » et <br>
+					cela à travers lui passer le nom du fichier ou du répertoire.</li>
+                    <li> On a quelques caractères ayant une signification <br>
+					spéciale permettant la création des schémas cela ce qu’utilise<br>
+					les fileglobs. </li>
+                    <li> Pour la validation des fichiers l’utilisation de « git commit »<br>
+					s’impose cela facilite aux contributeurs des projets de savoir maitriser<br>
+					les modifications puis les valider.</li></ul>
+                    
+                    <li>Pour créer un dépôt Git à partir d'un répertoire existant<br>
+					, vous pouvez suivre les étapes suivantes :</li>
+					<ul>
+                    <li> Ouvrez un terminal ou une ligne de commande dans le <br>
+					répertoire que vous souhaitez utiliser comme dépôt Git.</li>
+                    <li>Initialisez un nouveau dépôt Git<br>
+					en exécutant la commande « git init »</li>
+                     <li>Ajoutez les fichiers existants <br>
+					 à l'index Git en utilisant la commande <br>
+					 « git add ». Cela ajoutera tous les fichiers et dossiers du <br>
+					 répertoire actuel à l'index Git.</li>
+                    Effectuez un premier commit pour enregistrer<br>
+					les modifications : « git commit -m "Initial commit" ».<br>
+					Cette commande enregistre l'état actuel de tous les fichiers <br>
+					dans le dépôt Git avec le message "Initial commit".</li></ul>
+					
+                    <li>À partir de là, vous pouvez continuer à travailler sur <br>
+					le projet en effectuant des commits et en créant des<br>
+					branches pour développer de nouvelles fonctionnalités<br>
+					sans impacter le projet de base.</li>
+                         <ul> <li> Pour ajouter ou modifier des fichiers dans<br>
+						 un projet et actualiser notre dépôt Git, vous pouvez<br>
+						 suivre les étapes suivantes :</li>
+                               <li>   Ajouter les fichiers avec « git add  » .</li>
+                                <li>    Modifier les fichiers existants.</li>
+                                <li>  Crée un commit avec « git commit ».</li>
+                                 <li> Pousser les changements avec « git push ».</li></ul>
+                     <li>Pour annuler les modifications, on utilise la<br>
+					 commande « git checkout ». Cette commande  <br>
+					 vous permet de restaurer un fichier modifié à sa<br>
+					 dernière version enregistrée dans l’historique de Git.</li></ul><br>
+                     <li>Dans Git, une branche est simplement un pointeur vers un<br>
+					 commit spécifique. Contrairement à d'autres systèmes, Git ne <br>
+					 crée pas une copie complète du répertoire de travail lors<br>
+					 de la création d'une nouvelle branche, ce qui facilite la<br>
+					 création et la fusion de branches. La branche par défaut<br>
+					 dans Git est appelée "master" mais elle n'est pas <br>
+					 différente des autres branches. En somme, Git utilise<br>
+					 des pointeurs pour suivre l'historique du projet et <br>
+					 créer de nouvelles branches ne nécessite pas la duplication du répertoire de travail.</li></ul>
+					 </ul>
+					 </div>
+
+				
+				
+				
+				
+				
+				
+		
+				
+				
+				
+				
+			<section id="chapitre-0">
+			         <table style="width:100%">
+					 
+					 
+					 
+			             <caption> section 5 informatique </caption>
+						 <thead>
+                             <tr class="headt">
+                                 <th>Matricule</th>
+     <th>Nom</th>
+     <th>Prénom</th>
+     <th>Chapitre</th>
+	 
+     
+    
+  </tr>
+  </thead>
+  <tbody>
+  <colgroup>
+    <col span="3" style="background-color:none">
+    <col style="background-color:#ebe3d5">
+  </colgroup>
+  <tr class="2row">
+    <td>222231449519</td>
+    <td>Galoul</td>
+    <td>Lyna</td>
+    <td  rowspan="2" class="row">1</td>
+</tr>
+  <tr class="2row">
+    <td>222231362012</td>
+    <td>Tazir</td>
+    <td>Ghofrane</td>
+  </tr>
+  <tr>
+    <td>222231621505</td>
+    <td> Meberbeche</td>
+    <td>Sarah</td>
+    <td rowspan="2" class="row">2</td>
+    
+  </tr>
+  <tr>
+    <td>222231621615</td>
+    <td>Dellache</td>
+    <td>Hind</td>
+
+    
+  </tr>
+  <tr class="2row">
+    <td>222231485410</td>
+    <td>Nachef </td>
+    <td>Wissem</td>
+    <td  rowspan="2" class="row">3</td>
+    
+  </tr>
+  <tr class="2row"> 
+    <td>222231318905</td>
+    <td>Harkat</td>
+    <td>Chaima</td>
+  </tr>
+  <tr >
+    <td>222231347112</td>
+    <td>Hebbache</td>
+    <td>Meriem</td>
+    <td  rowspan="2" class="row">4</td>
+    
+  </tr>
+  <tr>
+    <td>212231443801</td>
+    <td>Boufermache</td>
+    <td>Rofeida</td>
+    
+	
+  </tr>
+  <tr class="2row">
+    <td>222231361618</td>
+    <td>Boukra</td>
+    <td>Chaima</td>
+	<td  rowspan="2" class="row">5</td>
+
+  <tr class="2row3">
+    <td>222231619605</td>
+    <td>Rezig</td>
+    <td>Fadoua</td>
+  </tr>
+  </tbody>
+</table>
+</section>
+	
+	 
+	 
+	 </body>
+
+</html>
